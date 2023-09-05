@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's Day Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Shadows+Into+Light&display=swap');
+</style>
+<body>
+    <header>
+        <h1 style="font-family: 'Poppins', sans-serif;">Teacher's Day Celebration</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#appreciation">Teacher Appreciation</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Home</h1><br>
+                <h2 style="font-family: 'Poppins', sans-serif;">Welcome to Teacher's Day Celebration</h2>
+                <p>Join us in celebrating the remarkable educators who shape the future.</p>
+            </div>
+            <!-- Add a large featured image -->
+            <img src="https://github.com/Jenin82/TeachersDay/blob/main/5.jpg?raw=true" alt="Teachers at work" width="1485" height="500" >
+        </div>
+    </section>
+    
+    
+
+    <section id="appreciation">
+        <h1>Teacher Appreciation</h1><br>
+        <h2 style="font-family: 'Poppins', sans-serif;">Teachers Appreciation Wall</h2>
+        <p>Share your messages to show your appreciation for your teachers:</p>
+        <form id="appreciation-form">
+            <textarea rows="4" cols="50" placeholder="Write your appreciation message here" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="appreciation-feed">
+            <div id="message-container"></div>
+
+        </div>
+    </section>
+
+    <section id="resources">
+        <h1>Resources</h1><br>
+        <h2 style="font-family: 'Poppins', sans-serif;">Resource Library</h2>
+        <p>Explore our collection of educational resources for teachers:</p>
+        <ul>
+            <li>
+                <h3>Lesson Plans</h3>
+                <p>Download ready-made lesson plans for various subjects and grade levels.</p>
+                <a href="lesson_plans.pdf" download>Download Now</a>
+            </li>
+            <li>
+                <h3>Teaching Materials</h3>
+                <p>Access teaching materials, worksheets, and educational tools to enhance your classroom.</p>
+                <a href="teaching_materials.zip" download>Download Now</a>
+            </li>
+            <li>
+                <h3>Tips for Teachers</h3>
+                <p>Get valuable tips and strategies from experienced educators to improve your teaching.</p>
+                <a href="tips_for_teachers.pdf" download>Download Now</a>
+            </li>
+        </ul>
+    </section>
+    <section id="events">
+        <h1>Events</h1><br>
+        <h2 style="font-family: 'Poppins', sans-serif;">Upcoming Events</h2>
+        <p>Join our virtual events and workshops to enhance your teaching skills:</p>
+        <ul>
+            <li>
+                <h3>Celebration: Teachers Day</h3>
+                <p>Date: September 5, 2023</p>
+                <p>Time: 3:00 PM - 4:30 PM</p>
+                <p>Teachers Day Celebration</p>
+                <a href="https://www.google.com/search?q=Teachers+Day&sca_esv=562670942&rlz=1C1GCEA_enIN999IN999&sxsrf=AB5stBhRdfXt-t9JJ2akPx7-1nQCtNMUcQ%3A1693895411956&ei=88r2ZIm-Oe2ZseMP2e6S4Ao&ved=0ahUKEwjJg8OS7JKBAxXtTGwGHVm3BKwQ4dUDCA8&uact=5&oq=Teachers+Day&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFRlYWNoZXJzIERheTIMECMYigUYJxhGGPsBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyDhAAGIoFGLEDGIMBGJECMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiKBRixAxiDATILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBSPIZUABYhBNwAHgBkAEAmAGSAaABhwyqAQQwLjEyuAEDyAEA-AEBwgIHECMYigUYJ8ICBBAjGCfCAg0QABiKBRixAxiDARhDwgIHEAAYigUYQ8ICCBAAGIoFGJEC4gMEGAAgQYgGAQ&sclient=gws-wiz-serp" class="event-link">Learn More</a>
+            </li>
+            <li>
+                <h3>Celebration: Childrens Day Celebration</h3>
+                <p>Date: November 14, 2023</p>
+                <p>Time: 3:00 PM - 4:00 PM</p>
+                <p>Childrens Day Celebration.</p>
+                <a href="https://www.google.com/search?q=Childrens+Day&sca_esv=562670942&rlz=1C1GCEA_enIN999IN999&sxsrf=AB5stBhfWFca94Sx_z-eeS1MOWV2N5ZHTw%3A1693895419737&ei=-8r2ZL_ULMnMseMPls6ZuA0&ved=0ahUKEwj_vZ6W7JKBAxVJZmwGHRZnBtcQ4dUDCA8&uact=5&oq=Childrens+Day&gs_lp=Egxnd3Mtd2l6LXNlcnAiDUNoaWxkcmVucyBEYXkyEhAAGIAEGLEDGIMBGAoYRhj7ATIKEAAYgAQYFBiHAjIKEAAYgAQYFBiHAjINEAAYgAQYsQMYgwEYCjIHEAAYgAQYCjIFEAAYgAQyBRAAGIAEMgUQABiABDIHEAAYgAQYCjIHEAAYgAQYCkjlHFAAWMgXcAB4AZABAJgBwQGgAa4OqgEEMC4xM7gBA8gBAPgBAcICBBAjGCfCAgcQABiKBRhDwgILEAAYgAQYsQMYgwHCAgsQABiKBRixAxiDAcICCxAuGIAEGLEDGIMBwgIHECMYigUYJ8ICDRAAGIoFGLEDGIMBGEPCAgoQLhiKBRixAxhDwgISEAAYigUYsQMYgwEYQxhGGPsBwgIQEAAYgAQYFBiHAhixAxjJA8ICCBAAGIoFGJIDwgIIEAAYgAQYsQPCAggQLhiABBixA8ICDRAAGIoFGLEDGIMBGArCAgoQABiABBixAxgKwgIKEAAYgAQYyQMYCuIDBBgAIEGIBgE&sclient=gws-wiz-serp" class="event-link">Learn More</a>
+            </li>
+            <li>
+                <h3>Celebration: Christmas Celebration</h3>
+                <p>Date: December 22, 2023</p>
+                <p>Time: 9:30 AM - 12:00 PM</p>
+                <p>Christmas Day Celebration.</p>
+                <a href="https://www.google.com/search?q=Christmas&sca_esv=562670942&rlz=1C1GCEA_enIN999IN999&sxsrf=AB5stBiYX0GtM1evDlYTTFo-Y--gHwV4mA%3A1693895529987&ei=acv2ZOvpO4LfseMPtJShoAc&ved=0ahUKEwirwufK7JKBAxWCb2wGHTRKCHQQ4dUDCA8&uact=5&oq=Christmas&gs_lp=Egxnd3Mtd2l6LXNlcnAiCUNocmlzdG1hczITEAAYigUYsQMYgwEYkQIYRhj7ATIOEAAYigUYsQMYgwEYkQIyDhAAGIoFGLEDGIMBGJECMgsQABiKBRixAxiRAjIHEAAYigUYQzIIEAAYigUYkQIyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyCBAuGIAEGLEDSLwSUABY_A5wAHgBkAEAmAGsAaABmgqqAQMwLjm4AQPIAQD4AQHCAgQQIxgnwgIJEAAYigUYChhDwgIHECMYigUYJ8ICCBAuGLEDGIAEwgIREC4YgAQYsQMYgwEYxwEYrwHCAggQABiKBRixA-IDBBgAIEGIBgE&sclient=gws-wiz-serp" class="event-link">Learn More</a>
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions, please feel free to contact us:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Website</h3>
+                    <p><a href="https://www.sngist.org">www.sngist.org</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+4842887000">0484-288-7000</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+        <p>&copy;SNGIST</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
